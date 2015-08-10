@@ -1,0 +1,27 @@
+{
+  "name": "shikora_org",
+  "version": "1.0.0",
+  "description": "home page",
+  "main": "app.js",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "css-loader": "^0.15.6",
+    "node-sass": "^3.2.0",
+    "sass-loader": "^2.0.0",
+    "style-loader": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshikora/shikora_3.git"
+  },
+  "author": "seth shikora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sshikora/shikora_3/issues"
+  },
+  "homepage": "https://github.com/sshikora/shikora_3#readme"
+}
