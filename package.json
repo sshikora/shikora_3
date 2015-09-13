@@ -5,10 +5,22 @@
   "main": "app.js",
   "dependencies": {
     "bootstrap": "^3.3.5",
-    "css-loader": "^0.15.6",
-    "node-sass": "^3.2.0",
-    "sass-loader": "^2.0.0",
-    "style-loader": "^0.12.3"
+    "browserify": "^11.1.0",
+    "browserify-shim": "^3.8.10",
+    "cssify": "^0.7.0",
+    "jquery": "^2.1.4"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "bootstrap": {
+      "depends": [
+        "jquery:jQuery"
+      ]
+    }
   },
   "devDependencies": {},
   "scripts": {
